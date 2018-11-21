@@ -13,6 +13,6 @@ setuptools.setup(
   url = 'https://github.com/NewtonGaliza/getPDFmetadata',
   packages = setuptools.find_packages(),
   classifiers = ['Programming Language :: Python :: 3'],
-  install_requires = ['optparse', 'PyPDF2']
+  install_requires = ['argparse', 'PyPDF2']
 
 )

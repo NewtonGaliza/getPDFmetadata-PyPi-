@@ -1,6 +1,7 @@
 import PyPDF2
 from PyPDF2 import PdfFileReader
-import optparse
+import argparse
+
 
 def printMeta(fileName):
     try:
@@ -14,12 +15,12 @@ def printMeta(fileName):
 
 
 def main():
-    parser = optparse.OptionParser('usage %prog' + '-F <PDF File>')
-    parser.add_option('-F', dest='fileName', type='string', help='Enter PDF file name')
-    (options, args) = parser.parse_args()
-    fileName = options.fileName
+    parser = argparse.ArgumentParser(description = '--file filename')
+    parser.add_argument('--file', action='store', dest='file', required = True, help='Enter a PDF file name')
+    args = parser.parse_args()
+    fileName = args.file
     if fileName == None:
-        print(parser.usage)
+        print('Enter a valid PDF file')
         exit(0)
     else:
         printMeta(fileName)
