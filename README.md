@@ -3,7 +3,7 @@
 ---
 >How to use:
 ```shell
-python getpdfmetada.py --file filename.pdf
+python getpdfmetada --file filename.pdf
 ---
 ```
 
