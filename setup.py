@@ -5,7 +5,7 @@ with open('README.md', 'r') as fh:
 
 setuptools.setup(
   name = 'getPDFmetadata',
-  version = '1.0.1',
+  version = '1.0.2',
   author = 'Newton Galiza',
   author_email = 'newtonjgaliza@gmail.com',
   long_description = long_description,
@@ -13,6 +13,6 @@ setuptools.setup(
   url = 'https://github.com/NewtonGaliza/getPDFmetadata',
   packages = setuptools.find_packages(),
   classifiers = ['Programming Language :: Python :: 3'],
-  install_requires = ['argparse', 'PyPDF2']
+  install_requires = ['PyPDF2']
 
 )
