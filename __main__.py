@@ -1,5 +1,5 @@
-import PyPDF2
-from PyPDF2 import PdfFileReader
+import PyPDF4
+from PyPDF4 import PdfFileReader
 import argparse
 
 
