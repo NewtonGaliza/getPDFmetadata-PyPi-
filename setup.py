@@ -5,7 +5,7 @@ with open('README.md', 'r') as fh:
 
 setuptools.setup(
   name = 'getPDFmetadata',
-  version = '1.0.0',
+  version = '1.0.1',
   author = 'Newton Galiza',
   author_email = 'newtonjgaliza@gmail.com',
   long_description = long_description,
