@@ -8,4 +8,4 @@ python getpdfmetada --file filename.pdf
 ```
 
 ## Python Package by Newton Galiza
-Link to PuPi paga (https://pypi.org/project/getPDFmetadata/)
+[Link to PyPi page] (https://pypi.org/project/getPDFmetadata/)
